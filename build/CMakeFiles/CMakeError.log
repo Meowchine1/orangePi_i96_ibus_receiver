@@ -1226,3 +1226,325 @@ ninja: build stopped: subcommand failed.
 
 
 
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/kate/Documents/IBUS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7e94f && [1/2] Building C object CMakeFiles/cmTC_7e94f.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_7e94f.dir/CMakeCCompilerABI.c.o 
+/usr/bin/gcc    -o CMakeFiles/cmTC_7e94f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/kate/Documents/IBUS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2a955 && [1/2] Building C object CMakeFiles/cmTC_2a955.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_2a955.dir/testCCompiler.c.o 
+/usr/bin/gcc    -o CMakeFiles/cmTC_2a955.dir/testCCompiler.c.o -c /home/kate/Documents/IBUS/build/CMakeFiles/CMakeTmp/testCCompiler.c
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/kate/Documents/IBUS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c685a && [1/2] Building C object CMakeFiles/cmTC_c685a.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_c685a.dir/CMakeCCompilerABI.c.o 
+/usr/bin/gcc    -o CMakeFiles/cmTC_c685a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/kate/Documents/IBUS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_22b74 && [1/2] Building C object CMakeFiles/cmTC_22b74.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_22b74.dir/testCCompiler.c.o 
+/usr/bin/gcc    -o CMakeFiles/cmTC_22b74.dir/testCCompiler.c.o -c /home/kate/Documents/IBUS/build/CMakeFiles/CMakeTmp/testCCompiler.c
+gcc: fatal error: cannot execute 'cc1': execvp: No such file or directory
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+

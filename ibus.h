@@ -10,12 +10,18 @@
 #define __IBUS_H__
 
 
-#include "usart.h"              // header from stm32cubemx code generate
+//#include "usart.h"              // header from stm32cubemx code generate
 #include <stdbool.h>
-
+#include <stdint.h>
 
 /* User configuration */
-#define IBUS_UART				(&huart1) // !
+//#define IBUS_UART				(&huart1) // CHANGES ON ---->
+//                   <-----------------------------------------------
+#define UART1_TX 104
+#define UART1_RX 103
+#define UART2_TX 14
+#define UART2_RX 102
+//--------------------
 #define IBUS_USER_CHANNELS		6		// Use 6 channels
 
 
@@ -24,6 +30,8 @@
 #define IBUS_COMMAND40			0x40	// Command to set servo or motor speed is always 0x40
 #define IBUS_MAX_CHANNLES		14
 
+
+ 
 
 /* Main Functions */
 void ibus_init();

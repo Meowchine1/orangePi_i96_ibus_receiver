@@ -17,7 +17,7 @@ static uint8_t fail_safe_flag = 0;
 /* Main Functions */
 void ibus_init()
 {
-	HAL_UART_Receive_DMA(IBUS_UART, uart_rx_buffer, 32);
+	//  HAL_UART_Receive_DMA(IBUS_UART, uart_rx_buffer, 32);
 }
 
 bool ibus_read(uint16_t* ibus_data)
