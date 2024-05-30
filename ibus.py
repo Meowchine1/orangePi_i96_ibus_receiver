@@ -39,7 +39,7 @@ try:
         # Отправляем данные через последовательный порт
         print('before send')
         ser.write(data)
-        sleep(0.5)
+        #sleep(0.5)
         print('after send')
 except KeyboardInterrupt:
     # Закрываем порт
