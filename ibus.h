@@ -6,6 +6,22 @@
  */
 
 
+ // From INAV sources
+ // The protocol is driven by the iBus receiver, currently either an IA6B or
+ // IA10. All iBus traffic is little endian. It begins with the iBus rx
+ // querying for a sensor on the iBus:
+ //
+ //
+ //  /---------\
+ //  | IBUS RX | > Hello sensor at address 1, are you there?
+ //  \---------/     [ 0x04, 0x81, 0x7A, 0xFF ]
+ //
+ //     0x04       - Packet Length
+ //     0x81       - bits 7-4 Command (1000 = discover sensor)
+ //                  bits 3-0 Address (0001 = address 1)
+ //     0x7A, 0xFF - Checksum, 0xFFFF - (0x04 + 0x81)
+
+
 #ifndef __IBUS_H__
 #define __IBUS_H__
 

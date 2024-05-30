@@ -2,6 +2,8 @@
 
 import time, os, sys
 
+
+
 os.chdir("/sys/class/gpio/")
 os.system("echo {} > export".format(sys.argv[1]))
 os.chdir("gpio{}".format(sys.argv[1]) )
