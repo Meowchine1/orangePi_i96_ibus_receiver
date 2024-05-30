@@ -5,6 +5,7 @@ import serial
 baudrate = 115200 
 protocol_len = 0x20
 command_code = 0x40
+max_val = 0xffff
 
 # Открываем последовательный порт
 ser = serial.Serial('/dev/ttyS1', baudrate)
@@ -23,9 +24,10 @@ command_code_bytes = command_code_decimal.to_bytes(1, 'big')
 data = protocol_len_bytes + command_code_bytes + roll.to_bytes(2, 'little') + pitch.to_bytes(2, 'little') + yaw.to_bytes(2, 'little')
 
 # Вычисляем checksum
-checksum = 65535 - (roll + pitch + yaw)
+checksum = int(max_val) - (roll + pitch + yaw)
 data += checksum.to_bytes(2, 'little')
-data += hex(65535)
+data += int(max_val).to_bytes(1, 'big')
+ser.open()
 try:
     while True:
         # Отправляем данные через последовательный порт
