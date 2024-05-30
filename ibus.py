@@ -37,9 +37,10 @@ data += checksum.to_bytes(2, 'little')
 try:
     while True:
         # Отправляем данные через последовательный порт
+        print('before send')
         ser.write(data)
         sleep(0.5)
-        print('in:')
+        print('after send')
 except KeyboardInterrupt:
     # Закрываем порт
     ser.close()
