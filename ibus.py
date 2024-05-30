@@ -11,7 +11,7 @@ chanels_count = 14
 setted_elems = 3
 # Открываем последовательный порт
 ser = serial.Serial('/dev/ttyS1', baudrate, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=False, rtscts=False)
- 
+print('success opened')
 # Формируем пакет данных с углами roll, pitch и yaw
 roll = 1000
 pitch = 1500
