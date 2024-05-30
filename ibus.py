@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import serial
+from time import sleep
 
 baudrate = 115200 
 protocol_len = 0x20
@@ -9,7 +10,7 @@ max_val = 0xffff
 chanels_count = 14
 setted_elems = 3
 # Открываем последовательный порт
-ser = serial.Serial('/dev/ttyS1', baudrate)
+ser = serial.Serial('/dev/ttyS1', baudrate, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=False, rtscts=False)
  
 # Формируем пакет данных с углами roll, pitch и yaw
 roll = 1000
@@ -37,6 +38,8 @@ try:
     while True:
         # Отправляем данные через последовательный порт
         ser.write(data)
+        sleep(0.5)
+        print('in:')
 except KeyboardInterrupt:
     # Закрываем порт
     ser.close()
