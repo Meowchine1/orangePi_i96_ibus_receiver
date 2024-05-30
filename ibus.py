@@ -32,7 +32,7 @@ for _ in range(chanels_count - setted_elems):
 checksum = int(max_val) - (roll + pitch + yaw + default*(chanels_count - setted_elems))
 data += checksum.to_bytes(2, 'little')
 #data += int(max_val).to_bytes(1, 'big')
-ser.open()
+#ser.open()
 try:
     while True:
         # Отправляем данные через последовательный порт
