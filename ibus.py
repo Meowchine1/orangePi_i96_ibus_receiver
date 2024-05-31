@@ -3,6 +3,14 @@
 import serial
 from time import sleep
 
+import serial.tools.list_ports
+
+ports = serial.tools.list_ports.comports()
+
+for port in ports:
+    print(port.device)
+
+
 baudrate = 115200 
 protocol_len = 0x20
 command_code = 0x40
@@ -10,7 +18,10 @@ max_val = 0xffff
 chanels_count = 14
 setted_elems = 3
 # Открываем последовательный порт
-ser = serial.Serial('/dev/ttyS1', baudrate, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=False, rtscts=False)
+ser = serial.Serial('/dev/ttyS1', baudrate=baudrate, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=False, rtscts=False)
+
+print(ser.name) 
+
 print('success opened')
 # Формируем пакет данных с углами roll, pitch и yaw
 roll = 1000
